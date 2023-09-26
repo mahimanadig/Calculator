@@ -3,7 +3,7 @@ using Calculator.Result;
 
 namespace Calculator.ArithmeticOperaton
 {
-    internal class Multiplication : IOperation
+    public class Multiplication : IOperation
     {
         public IResult Calculate(double param1, double param2)
         {

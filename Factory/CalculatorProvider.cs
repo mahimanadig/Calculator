@@ -3,7 +3,7 @@ using Calculator.Interface;
 
 namespace Calculator
 {
-    internal class CalculatorProvider : ICalculatorFactory
+    public class CalculatorProvider : ICalculatorFactory
     {
         public ICalculator GetCalculator(CalculatorType type)
         {

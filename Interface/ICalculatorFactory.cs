@@ -2,7 +2,7 @@
 
 namespace Calculator.Interface
 {
-    internal interface ICalculatorFactory
+    public interface ICalculatorFactory
     {
         ICalculator GetCalculator(CalculatorType type);
     }

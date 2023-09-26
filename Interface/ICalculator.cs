@@ -2,7 +2,7 @@
 
 namespace Calculator.Interface
 {
-    internal interface ICalculator
+    public interface ICalculator
     {
         IOperation GetOperation(OperationType type);
     }

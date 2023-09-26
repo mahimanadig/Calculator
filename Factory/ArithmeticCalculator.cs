@@ -4,7 +4,7 @@ using Calculator.Interface;
 
 namespace Calculator
 {
-    internal class ArithmeticCalculator : ICalculator
+    public class ArithmeticCalculator : ICalculator
     {
         public IOperation GetOperation(OperationType type)
         {
